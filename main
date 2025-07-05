@@ -1,1 +1,59 @@
- kmieinds ds, wwwwdede
+
+Methos :
+
+
+What is a Method in Java?
+A method is a block of code that performs a specific task.
+
+
+Why Use Methods?
+✅ Reusability – Write once, use many times
+✅ Easy to read and manage
+✅ Reduces code duplication
+
+returnType methodName(parameters) {
+    // method body
+}
+
+
+
+Example 1: A simple method with no parameters and no return
+java
+Copy
+Edit
+public static void greet() {
+    System.out.println("Hello, Shaik ji!");
+}
+
+
+ How to call this method?
+java
+Copy
+Edit
+public static void main(String[] args) {
+    greet();  // method call
+}
+
+Example 2: Method with parameters (but no return)
+java
+Copy
+Edit
+public static void welcomeUser(String name) {
+    System.out.println("Welcome, " + name);
+}
+
+welcomeUser("Sumiyah");
+
+
+Example 3: Method with return type
+java
+Copy
+Edit
+public static int add(int a, int b) {
+    return a + b;
+}
+
+int result = add(5, 3);
+System.out.println("Result: " + result);
+
+
